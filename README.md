@@ -1,122 +1,51 @@
-<p align="center">
-  <img src="https://s3.us-west-2.amazonaws.com/gh-assets.chatwoot.com/brand.svg" alt="Woot-logo" width="240" />
+<h1>Synlife</h1>
+<p>O Synlife é um pacote de engajamento do cliente auto-hospedado e de código aberto. O Synlife permite que você visualize e gerencie os dados de seus clientes, comunique-se com eles, independentemente de qual meio eles usam, e volte a engajá-los com base em seu perfil.</p>
 
-  <p align="center">Customer engagement suite, an open-source alternative to Intercom, Zendesk, Salesforce Service Cloud etc.</p>
-</p>
+<h2>Características</h2>
+<p>O Synlife suporta os seguintes canais de conversação:</p>
 
-<p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master" alt="Deploy to Heroku">
-     <img width="150" alt="Deploy" src="https://www.herokucdn.com/deploy/button.svg"/>
-  </a>
-  <a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-     <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
-  </a>
-</p>
+<ul>
+  <li>Site: converse com seus clientes usando nosso widget de bate-papo ao vivo e faça uso de nosso SDK para identificar um usuário e fornecer suporte contextual.</li>
+  <li>Facebook: conecte suas páginas do Facebook e comece a responder às mensagens diretas à sua página.</li>
+  <li>Instagram: conecte seu perfil do Instagram e comece a responder as mensagens diretas.</li>
+  <li>Twitter: conecte seus perfis do Twitter e responda às mensagens diretas ou aos tweets onde você é mencionado.</li>
+  <li>Telegram: conecte seu bot do Telegram e responda aos seus clientes diretamente de um único painel.</li>
+  <li>WhatsApp: conecte sua conta comercial do WhatsApp e gerencie a conversa no Synlife.</li>
+  <li>Line: Conecte sua conta Line e gerencie as conversas no Synlife.</li>
+  <li>SMS: Conecte sua conta Twilio SMS e responda às consultas SMS no Synlife.</li>
+  <li>Canal de API: crie canais de comunicação personalizados usando nosso canal de API.</li>
+  <li>E-mail: encaminhe todas as suas consultas por e-mail para o Synlife e visualize-as em nosso painel integrado.</li>
+</ul>
 
-___
+<p>Outros recursos incluem:</p>
 
-<p align="center">
-  <a href="https://codeclimate.com/github/chatwoot/chatwoot/maintainability"><img src="https://api.codeclimate.com/v1/badges/e6e3f66332c91e5a4c0c/maintainability" alt="Maintainability"></a>
-  <img src="https://img.shields.io/circleci/build/github/chatwoot/chatwoot" alt="CircleCI Badge">
-    <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/pulls/chatwoot/chatwoot" alt="Docker Pull Badge"></a>
-  <a href="https://hub.docker.com/r/chatwoot/chatwoot/"><img src="https://img.shields.io/docker/cloud/build/chatwoot/chatwoot" alt="Docker Build Badge"></a>
-  <img src="https://img.shields.io/github/commit-activity/m/chatwoot/chatwoot" alt="Commits-per-month">
-  <a title="Crowdin" target="_self" href="https://chatwoot.crowdin.com/chatwoot"><img src="https://badges.crowdin.net/e/37ced7eba411064bd792feb3b7a28b16/localized.svg"></a>
-  <a href="https://discord.gg/cJXdrwS"><img src="https://img.shields.io/discord/647412545203994635" alt="Discord"></a>
-  <a href="https://huntr.dev/bounties/disclose"><img src="https://cdn.huntr.dev/huntr_security_badge_mono.svg" alt="Huntr"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fuptime.json" alt="uptime"></a>
-  <a href="https://status.chatwoot.com"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fchatwoot%2Fstatus%2Fmaster%2Fapi%2Fchatwoot%2Fresponse-time.json" alt="response time"></a>
-  <a href="https://artifacthub.io/packages/helm/chatwoot/chatwoot"><img src="https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/artifact-hub" alt="Artifact HUB"></a>
-</p>
+<ul>
+  <li>CRM: salve todas as informações do cliente diretamente no Synlife, use notas de contato para registrar e-mails, telefonemas ou notas de reunião.</li>
+  <li>Atributos personalizados: defina atributos de atributos personalizados para armazenar informações sobre um contato ou uma conversa e amplie o produto para corresponder ao seu fluxo de trabalho.</li>
+  <li>Caixas de entrada multimarcas compartilhadas: gerencie várias marcas ou páginas usando uma caixa de entrada compartilhada.</li>
+  <li>Notas privadas: use @menções e notas privadas para se comunicar internamente sobre uma conversa.</li>
+  <li>Respostas prontas (respostas salvas): melhore a taxa de resposta adicionando respostas salvas para perguntas frequentes.</li>
+  <li>Rótulos de conversa: use rótulos de conversa para criar fluxos de trabalho personalizados.</li>
+  <li>Atribuição automática: o Synlife atribui de forma inteligente um ticket aos agentes que têm acesso à caixa de entrada em função da sua disponibilidade e carga.</li>
+  <li>Continuidade da conversa: se o usuário forneceu um endereço de e-mail por meio do widget de bate-papo, o Synlife enviará um e-mail ao cliente com o nome do agente para que o usuário possa continuar a conversa por e-mail.</li>
+  <li>Suporte multilíngue: Synlife suporta mais de 10 idiomas.</li>
+  <li>API e webhooks poderosos: estenda a capacidade do software usando os webhooks e APIs do Synlife.</li>
+  <li>Integrações: Synlife integra-se nativamente com Slack agora. Gerencie suas conversas no Slack sem fazer login no painel.</li>
+</ul>
 
-<img src="https://chatwoot-public-assets.s3.amazonaws.com/github/screenshot.png" width="100%" alt="Chat dashboard"/>
+<h2>Documentação</h2>
+<p>A documentação detalhada está disponível em <a href="https://synlife.com/help-center">Synlife.com/help-center</a>.</p>
 
+<h2>Processo de tradução</h2>
+<p>O processo de tradução para a web e aplicativo móvel do Synlife é gerenciado em <a href="https://translate.synlife.com">translate.Synlife.com</a> usando o Crowdin. Leia o guia de tradução para contribuir com o Synlife.</p>
 
+<h2>Modelo de ramificação</h2>
+<p>Usamos o modelo de ramificação git-flow. A ramificação base é <em>develop</em>. Se você estiver procurando por uma versão estável, use o <em>master</em> ou as tags rotuladas como <em>v1.x.x</em>.</p>
 
-Chatwoot is an open-source, self-hosted customer engagement suite. Chatwoot lets you view and manage your customer data, communicate with them irrespective of which medium they use, and re-engage them based on their profile.
+<p>Implantação para FAZER.</p>
 
-## Features
+<p>Outras opções de implantação:</p>
+<p>Para outras opções suportadas, confira nossa página de <a href="#">implantação</a>.</p>
 
-Chatwoot supports the following conversation channels:
-
- - **Website**: Talk to your customers using our live chat widget and make use of our SDK to identify a user and provide contextual support.
- - **Facebook**: Connect your Facebook pages and start replying to the direct messages to your page.
- - **Instagram**: Connect your Instagram profile and start replying to the direct messages.
- - **Twitter**: Connect your Twitter profiles and reply to direct messages or the tweets where you are mentioned.
- - **Telegram**: Connect your Telegram bot and reply to your customers right from a single dashboard.
- - **WhatsApp**: Connect your WhatsApp business account and manage the conversation in Chatwoot.
- - **Line**: Connect your Line account and manage the conversations in Chatwoot.
- - **SMS**: Connect your Twilio SMS account and reply to the SMS queries in Chatwoot.
- - **API Channel**: Build custom communication channels using our API channel.
- - **Email**: Forward all your email queries to Chatwoot and view it in our integrated dashboard.
-
-And more.
-
-Other features include:
-
-- **CRM**: Save all your customer information right inside Chatwoot, use contact notes to log emails, phone calls, or meeting notes.
-- **Custom Attributes**: Define custom attribute attributes to store information about a contact or a conversation and extend the product to match your workflow.
-- **Shared multi-brand inboxes**: Manage multiple brands or pages using a shared inbox.
-- **Private notes**: Use @mentions and private notes to communicate internally about a conversation.
-- **Canned responses (Saved replies)**: Improve the response rate by adding saved replies for frequently asked questions.
-- **Conversation Labels**: Use conversation labels to create custom workflows.
-- **Auto assignment**: Chatwoot intelligently assigns a ticket to the agents who have access to the inbox depending on their availability and load.
-- **Conversation continuity**: If the user has provided an email address through the chat widget, Chatwoot will send an email to the customer under the agent name so that the user can continue the conversation over the email.
-- **Multi-lingual support**: Chatwoot supports 10+ languages.
-- **Powerful API & Webhooks**: Extend the capability of the software using Chatwoot’s webhooks and APIs.
-- **Integrations**: Chatwoot natively integrates with Slack right now. Manage your conversations in Slack without logging into the dashboard.
-
-## Documentation
-
-Detailed documentation is available at [chatwoot.com/help-center](https://www.chatwoot.com/help-center).
-
-## Translation process
-
-The translation process for Chatwoot web and mobile app is managed at [https://translate.chatwoot.com](https://translate.chatwoot.com) using Crowdin. Please read the [translation guide](https://www.chatwoot.com/docs/contributing/translating-chatwoot-to-your-language) for contributing to Chatwoot.
-
-## Branching model
-
-We use the [git-flow](https://nvie.com/posts/a-successful-git-branching-model/) branching model. The base branch is `develop`.
-If you are looking for a stable version, please use the `master` or tags labelled as `v1.x.x`.
-
-## Deployment
-
-### Heroku one-click deploy
-
-Deploying Chatwoot to Heroku is a breeze. It's as simple as clicking this button:
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/chatwoot/chatwoot/tree/master)
-
-Follow this [link](https://www.chatwoot.com/docs/environment-variables) to understand setting the correct environment variables for the app to work with all the features. There might be breakages if you do not set the relevant environment variables.
-
-
-### DigitalOcean 1-Click Kubernetes deployment
-
-Chatwoot now supports 1-Click deployment to DigitalOcean as a kubernetes app.
-
-<a href="https://marketplace.digitalocean.com/apps/chatwoot?refcode=f2238426a2a8" alt="Deploy to DigitalOcean">
-  <img width="200" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/>
-</a>
-
-### Other deployment options
-
-For other supported options, checkout our [deployment page](https://chatwoot.com/deploy). 
-
-## Security
-
-Looking to report a vulnerability? Please refer our [SECURITY.md](./SECURITY.md) file.
-
-
-## Community? Questions? Support ?
-
-If you need help or just want to hang out, come, say hi on our [Discord](https://discord.gg/cJXdrwS) server.
-
-
-## Contributors ✨
-
-Thanks goes to all these [wonderful people](https://www.chatwoot.com/docs/contributors):
-
-<a href="https://github.com/chatwoot/chatwoot/graphs/contributors"><img src="https://opencollective.com/chatwoot/contributors.svg?width=890&button=false" /></a>
-
-
-*Chatwoot* &copy; 2017-2023, Chatwoot Inc - Released under the MIT License.
+<h2>Segurança</h2>
+<p>Procurando relatar uma vulnerabilidade? Consulte nosso arquivo <a href="#">SECURITY.md</a>.</p>
