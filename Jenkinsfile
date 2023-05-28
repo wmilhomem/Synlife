@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Atualizando código fonte') {
+    stage('Atualizando codigo fonte') {
       steps {
         echo 'Atualizando arquivos modificados'
       }
