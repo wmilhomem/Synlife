@@ -1,0 +1,114 @@
+.auth-wrap {
+  width: 100%;
+}
+
+// Outside login wrapper
+.login {
+  @include full-height;
+  overflow-y: auto;
+  //padding-top: $space-larger * 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .login__hero {
+    margin-bottom: $space-larger;
+
+    .hero__logo {
+      width: 180px;
+    }
+
+    .hero__title {
+      font-weight: $font-weight-light;
+      margin-top: $space-larger;
+    }
+
+    .hero__sub {
+      color: $medium-gray;
+      font-size: $font-size-medium;
+    }
+  }
+
+  // Login box
+  .login-box {
+    @include background-white;
+    //@include border-normal;
+    @include elegant-card;
+
+    //border-radius: $space-smaller;
+    border-radius: 20px 20px 10px 10px;
+    //padding: $space-large;
+
+    label {
+      color: $color-dark-grey;
+      //font-size: $font-size-default;
+      p {
+        font-size: $font-size-mini;
+      }
+      input {
+        font-size: $font-size-mini;
+        height: $space-larger;
+        padding: $space-slab;
+      }
+
+      .error {
+        font-size: $font-size-small;
+      }
+    }
+
+    .button {
+      height: $space-larger;
+    }
+  }
+
+  .sigin__footer {
+    font-size: $font-size-small;
+    padding: $space-medium;
+
+    > a {
+      font-weight: $font-weight-bold;
+    }
+  }
+}
+.modal_login {
+  width: 40.8rem;
+  height: 42.7rem;
+}
+.header_model {
+  background-color: #7423d9;
+  border-top-left-radius: $border-radius-defaul;
+  border-top-right-radius: $border-radius-defaul;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.5rem;
+}
+.header_logo {
+  width: 20rem;
+  height: 5rem;
+}
+.form_style {
+  width: 32rem;
+  height: 35.3rem;
+}
+.forgot_password {
+  font-size: $font-size-mini;
+}
+.div-authentication {
+  height: 100%;
+}
+.form-login {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  margin-top: 4.8rem;
+  height: 68%;
+  flex-direction: column;
+}
+.input-email {
+  margin-bottom: 0.5rem;
+}
+.input-password {
+  margin-bottom: 1.5rem;
+}
