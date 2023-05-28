@@ -1,5 +1,5 @@
 <h1>Synlife</h1>
-<p>O Synlife é um pacote de engajamento do cliente auto-hospedado e de código aberto. O Synlife permite que você visualize e gerencie os dados de seus clientes, comunique-se com eles, independentemente de qual meio eles usam, e volte a engajá-los com base em seu perfil.</p>
+<p>O Synlife é um pacote de engajamento do cliente que permite visualizar e gerenciar os dados de seus clientes, comunique-se com eles, independentemente de qual meio eles usam, e volte a engajá-los com base em seu perfil.</p>
 
 <h2>Características</h2>
 <p>O Synlife suporta os seguintes canais de conversação:</p>
@@ -38,11 +38,6 @@
 
 <h2>Processo de tradução</h2>
 <p>O processo de tradução para a web e aplicativo móvel do Synlife é gerenciado em <a href="https://translate.synlife.com">translate.Synlife.com</a> usando o Crowdin. Leia o guia de tradução para contribuir com o Synlife.</p>
-
-<h2>Modelo de ramificação</h2>
-<p>Usamos o modelo de ramificação git-flow. A ramificação base é <em>develop</em>. Se você estiver procurando por uma versão estável, use o <em>master</em> ou as tags rotuladas como <em>v1.x.x</em>.</p>
-
-<p>Implantação para FAZER.</p>
 
 <p>Outras opções de implantação:</p>
 <p>Para outras opções suportadas, confira nossa página de <a href="#">implantação</a>.</p>
