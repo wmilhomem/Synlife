@@ -2,19 +2,14 @@ pipeline {
   agent any
   stages {
     stage('Build') {
-      parallel {
-        stage('Build') {
-          steps {
-            echo 'Atualizando arquivos modificados'
-          }
-        }
+      steps {
+        echo 'Atualizando arquivos modificados'
+      }
+    }
 
-        stage('Install') {
-          steps {
-            sh 'ls -la'
-          }
-        }
-
+    stage('Diretório ') {
+      steps {
+        sh 'pwd'
       }
     }
 
