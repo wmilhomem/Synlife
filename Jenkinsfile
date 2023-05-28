@@ -7,9 +7,10 @@ pipeline {
       }
     }
 
-    stage('Diretório ') {
+    stage('Install') {
       steps {
-        sh 'pwd'
+        sh '''pwd
+ls -la'''
       }
     }
 
