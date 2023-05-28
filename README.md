@@ -1,7 +1,7 @@
 <h1>Synlife</h1>
 <p>O Synlife é um pacote de engajamento do cliente que permite visualizar e gerenciar os dados de seus clientes, comunique-se com eles, independentemente de qual meio eles usam, e volte a engajá-los com base em seu perfil.</p>
 
-<h2>Características</h2>
+<h2>Características Principais</h2>
 <p>O Synlife suporta os seguintes canais de conversação:</p>
 
 <ul>
