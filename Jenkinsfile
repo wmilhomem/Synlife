@@ -1,16 +1,17 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Atualizando código fonte') {
       steps {
         echo 'Atualizando arquivos modificados'
       }
     }
 
-    stage('Install') {
+    stage('Preparando ambiente') {
       steps {
         sh '''pwd
-ls -la'''
+ls -la
+ruby -v'''
       }
     }
 
