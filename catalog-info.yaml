@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: synlife-atendimento
+  annotations:
+    github.com/project-slug: wmilhomem/synlife
+spec:
+  type: other
+  lifecycle: unknown
+  owner: synlife
